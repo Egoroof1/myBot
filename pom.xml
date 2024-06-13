@@ -14,7 +14,7 @@
 	<name>diego-bot</name>
 	<description>Bot for my needs</description>
 	<properties>
-		<java.version>21</java.version>
+		<java.version>17</java.version>
 		<telegram.version>6.9.7.1</telegram.version>
 	</properties>
 	<dependencies>
@@ -44,6 +44,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<executable>true</executable>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
