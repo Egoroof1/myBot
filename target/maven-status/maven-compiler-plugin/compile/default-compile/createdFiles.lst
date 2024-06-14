@@ -1,0 +1,4 @@
+com\tBot\bot\DiegoBotApplication.class
+com\tBot\bot\service\TelegramBot.class
+com\tBot\bot\config\BotInitializer.class
+com\tBot\bot\config\BotConfig.class
